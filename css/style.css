@@ -59,6 +59,35 @@ header {
   /* Hilangkan garis bawah */
 }
 
+.bagian-hero {
+  background-color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.bagian-hero h2 {
+  margin-bottom: 15px;
+}
+
+.bagian-hero p {
+  margin-bottom: 30px;
+}
+
+.tombol-daftar {
+  background-color: transparent; /* Latar transparan */
+  color: #0066cc; /* Teks warna biru */
+  border: 2px solid #0066cc; /* Garis tepi biru */
+  text-decoration: none;
+  padding: 8px 18px; /* Padding dikurangi 2px karena ada border */
+  border-radius: 5px;
+}
+
+/* Mengubah warna tombol menjadi biru solid saat kursor diarahkan */
+.tombol-daftar:hover {
+  background-color: #0066cc;
+  color: white;
+}
+
 /* --- Footer --- */
 footer {
   background-color: #222222;
