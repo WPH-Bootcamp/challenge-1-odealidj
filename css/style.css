@@ -1,1 +1,50 @@
-/* code here */
+/* Reset margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  background-color: #f4f4f4;
+}
+
+/* --- Header --- */
+header {
+  background-color: #222222;
+  padding: 20px;
+}
+
+.menu-navigasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-menu {
+  display: flex;
+  list-style: none;
+  /* (Ini sudah ada, cukup tambahkan display: flex) */
+}
+
+/* Tambahkan jarak antar menu */
+.list-menu li {
+  margin-left: 20px;
+}
+
+.logo {
+  color: white;
+}
+
+.list-menu {
+  list-style: none;
+  /* Hilangkan titik-titik di list */
+}
+
+.list-menu a {
+  color: white;
+  text-decoration: none;
+  /* Hilangkan garis bawah */
+}
