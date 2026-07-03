@@ -88,6 +88,25 @@ header {
   color: white;
 }
 
+.bagian-layanan {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.bungkus-artikel {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.kotak-layanan {
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  margin: 0 10px;
+  width: 250px;
+}
+
 /* --- Footer --- */
 footer {
   background-color: #222222;
